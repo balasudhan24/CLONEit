@@ -1,0 +1,301 @@
+.navbar{
+    background-color: black;
+    color: white;
+}
+.logo{
+    /* margin-left: 66px; */
+    width: 41px;
+}
+.navbar-light .navbar-toggler {
+    background-color: white;
+    color: rgb(255 255 255 / 50%);
+    border-color: rgb(255 255 255 / 10%);
+}
+.banner{
+    background: linear-gradient(to right top, #F47923, #9D3CFF);
+}
+.w-100 {
+    margin-top: 101px;
+    margin-left: 101px;
+    width: 50% !important;
+}
+.logoanimation{
+    animation: bounceAnimation 1s infinite;
+}
+@keyframes bounceAnimation {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-20px); 
+    }
+  }
+.logoanimation1{
+    margin-top: -648px;
+    height: 78px;
+}
+.logoanimation2{
+    margin-left: 293px;
+    margin-top: -626px;
+    height: 112px;
+}
+.logoanimation3{
+       margin-left: -379px;
+    margin-top: -163px;
+    height: 115px;
+}
+.logoanimation4{
+    margin-left: 233px;
+    margin-top: -56px;
+    height: 56px;
+}
+.blu{
+    animation: none;
+    margin-top: -1353px;
+    filter: blur(3px);
+    margin-left: 97px;
+    height: 68px;
+}
+.blu1{
+    margin-left: 537px;
+    animation: none;
+    filter: blur(1px);
+    height: 66px;
+}
+.bl{
+    animation: none;
+    filter: blur(3px);
+    height: 66px;
+}
+.banner1{
+    font-size: 66   px;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #1b0e0e;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+/*  */
+.Service{
+    /* background: linear-gradient(to right top, #F47923, #9D3CFF);  */
+    background: linear-gradient(90deg, rgba(121,9,109,1) 13%, rgba(255,252,0,1) 100%);
+
+    }
+.Service1{
+        font-family: Impact, Charcoal, sans-serif;
+    font-size: 68px;
+    letter-spacing: 0.8px;
+    word-spacing: 2px;
+    color: #000000;
+    /* font-weight: 200; */
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+ }
+.box1{
+   border-radius: 15%;
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.box1:hover{
+    background-image: url(./assets/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    border-radius: 15%;
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.box2:hover{
+    background-image: url(./assets/b3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3{
+    border-radius: 15%;
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.box3:hover{
+    background-image: url(./assets/s6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.box4{
+    border-radius: 15%;
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.box4:hover{
+    background-image: url(./assets/ui.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{
+    border-radius: 15%;
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.box5:hover{
+    background-image: url(./assets/di.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6{
+    border-radius: 15%;
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+.box6:hover{
+    background-image: url(./assets/b4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    font-size: 17px;
+    font-family: Quintessential, cursive !important; 
+    text-align: center;
+    color: rgb(0, 1, 1);
+    text-shadow: none;
+}
+  
+/*  */
+.team{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.team-img{
+    height: 146px;
+    border-radius: 50%;
+}
+.font{
+    color: black;
+    position: relative;
+    top: -14px;
+    left: 26px;
+    margin: 7px;
+}
+.card{
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(244,244,244,1) 37%, rgb(255, 255, 52) 59%);
+}
+.item{
+    display:inline-block;
+    background: #42bdc2;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+  /*  */
+.about{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+.about2{
+    margin-top: 34px;
+    margin-left: -4px;
+    width: 364px;
+}
+.sitlogo{
+    margin-left: 13px;
+    height: 333px;
+    border-radius: 50%;
+    width: 329px;
+}
+.contact{
+    background: linear-gradient(90deg, rgb(251, 166, 9) 21%, rgb(235, 24, 24) 85%); 
+}
+.contact-2{
+    margin: 50px;
+}
+/*  */
+.subject {
+    margin-top: 55px;
+    width: 337px;
+}   
+.conatact-button{
+
+
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background-color: #ffefef;
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+.conatact-button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+ 
+  
+  .conatact-button:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .conatact-button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #181717;
+  }
+  .label1{
+    color: white;
+    font-size: x-large;
+  }
+  /*  */
+  #footer{
+    color: white;
+    background: linear-gradient(90deg, rgba(2,24,255,1) 6%, rgba(170,0,224,1) 56%);  
+}
+.font1{
+    color: white;
+    position: relative;
+    top: -16px;
+    left: -8px;
+    margin: 7px;
+}
